@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    appearance: none;
+    border: none;
+    font-size: 18px;
+}
+body{
+    background-color:rgb(66, 57, 93);
+
+}
+.content{
+    max-width: 600px;
+    height: 100vh;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+}
+.new_task{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.input_text_area{
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+}
+.submit_area{
+    padding: 10px;
+}
+.submit_area:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.task_after_added h2{
+    color: white;
+    font-size: 34px;
+}
+.task_content{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+#text{
+    width: 450px;
+    height: 30px;
+    padding: 0px 10px;
+}
+.task_action{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.task_action button{
+    padding: 0px 10px;
+}
